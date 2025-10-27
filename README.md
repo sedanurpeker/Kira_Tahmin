@@ -51,14 +51,14 @@ python kira_tahmin.py
 
 | Model              | Ortalama RMSE  | RMSE Std. Sapması| MAPE (%) |
 |--------------------|----------------|------------------|-----------|
-| Linear Regression  | ~              | ~                | ~         |
-| Random Forest      | ~              | ~                | ~         |
-| XGBoost            | ~              | ~                | ~         |
+| Linear Regression  | 0.155164       | 0.029752         | 10.079832 |
+| Random Forest      | 0.143166       | 0.008549         | 10.174023 |
+| XGBoost            | 0.134444       | 0.012261         | 9.619548  |
 
 
 ##  Dosya Yapısı
 ```
-kira-tahmin
+Kira_Tahmin
  ┣  kira_tahmin.py         # Modelleme ve analiz kodları
  ┣  train.csv              # Kaggle veri seti
  ┗  README.md
